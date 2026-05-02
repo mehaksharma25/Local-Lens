@@ -14,25 +14,6 @@ The application delivers a hyperlocal experience where users can explore nearby 
 * Ability to create and share posts with location and category
 
 
-## Tech Stack
-
-Frontend:
-
-* React (Hooks, Context API)
-* React Router
-* Tailwind CSS
-
-Backend / Services:
-
-
-
-APIs and Tools:
-
-* Google Maps API
-* Framer Motion
-* Chart.js
-
-
 ## Key Concepts Implemented
 
 * State management using useState, useEffect, and Context API
