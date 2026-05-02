@@ -24,7 +24,7 @@ Frontend:
 
 Backend / Services:
 
-* Firebase (Authentication, Firestore, Realtime Database)
+
 
 APIs and Tools:
 
