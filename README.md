@@ -35,7 +35,7 @@ Local updates are often scattered across multiple platforms and lack real-time r
 
 ## Future Improvements
 
-* AI-based personalized recommendations
+* Personalized recommendations
 * Media uploads (images and videos)
 * Push notifications
 * Advanced filtering and moderation system
