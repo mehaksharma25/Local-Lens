@@ -1,0 +1,360 @@
+.ipl-page {
+  min-height: 100vh;
+  background: #f7f8fa;
+}
+
+.ipl-page-shell {
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+.ipl-banner {
+  margin-bottom: 28px;
+}
+
+.ipl-banner-shell {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 32px;
+  border: 1px solid #e6e8eb;
+  border-radius: 28px;
+  background: #f0f2f4;
+}
+
+.ipl-banner-main {
+  flex: 1;
+}
+
+.ipl-banner-kicker {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.ipl-banner-title {
+  margin-top: 10px;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: #111827;
+}
+
+.ipl-banner-subtitle {
+  margin-top: 8px;
+  font-size: 1.05rem;
+  color: #4b5563;
+}
+
+.ipl-banner-team-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.ipl-team-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid #d8dde3;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.ipl-team-chip-logo,
+.ipl-partner-badge,
+.match-team-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.ipl-team-chip-logo {
+  width: 36px;
+  height: 36px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 0.82rem;
+}
+
+.ipl-team-chip-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.ipl-banner-partner {
+  width: 290px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 24px;
+  border-left: 1px solid #d7dce2;
+}
+
+.ipl-banner-partner-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.ipl-banner-partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.ipl-partner-badge {
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #d8dde3;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+  font-size: 0.9rem;
+}
+
+.ipl-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.match-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.match-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.match-section-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #111827;
+}
+
+.match-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.match-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 18px;
+  border: 1px solid #edf0f3;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.match-card-date {
+  min-width: 84px;
+  padding: 14px 12px;
+  border-radius: 14px;
+  background: #f3f4f6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.match-card-day,
+.match-card-month {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.match-card-number {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111827;
+}
+
+.match-card-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+}
+
+.match-card-teams {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.match-team-logo {
+  width: 52px;
+  height: 52px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 0.95rem;
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.14);
+}
+
+.match-team-logo.alt {
+  background: #d97706;
+}
+
+.match-card-versus {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+.match-card-copy {
+  min-width: 0;
+}
+
+.match-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.4;
+}
+
+.match-card-stadium,
+.match-card-time {
+  margin-top: 4px;
+  font-size: 0.92rem;
+  color: #6b7280;
+}
+
+.match-card-actions {
+  min-width: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.match-card-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.match-card-status.live {
+  color: #047857;
+}
+
+.match-card-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #22c55e;
+}
+
+.match-card-button {
+  min-width: 144px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.match-card-button.active {
+  background: #111111;
+  color: #ffffff;
+}
+
+.match-card-button.active:hover {
+  transform: translateY(-1px);
+}
+
+.match-card-button.disabled {
+  background: #e5e7eb;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1023px) {
+  .ipl-banner-shell {
+    flex-direction: column;
+  }
+
+  .ipl-banner-partner {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 20px;
+    border-left: none;
+    border-top: 1px solid #d7dce2;
+  }
+
+  .match-card {
+    align-items: flex-start;
+  }
+
+  .match-card-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .ipl-page-shell {
+    width: min(100% - 32px, 1200px);
+    padding-top: 16px;
+  }
+
+  .ipl-banner-shell {
+    padding: 22px 20px;
+    border-radius: 22px;
+  }
+
+  .match-section-title {
+    font-size: 1.45rem;
+  }
+
+  .match-card {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .match-card-date {
+    min-width: 72px;
+  }
+
+  .match-card-main {
+    width: 100%;
+  }
+
+  .match-card-actions {
+    width: 100%;
+    min-width: 0;
+    align-items: stretch;
+  }
+
+  .match-card-button {
+    width: 100%;
+  }
+}

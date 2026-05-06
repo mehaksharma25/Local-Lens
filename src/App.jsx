@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import EventDetail from "./pages/EventDetail";
+import MoviesPage from "./pages/MoviesPage";
+import IPLPage from "./pages/IPLPage";
 import "./App.css";
 
 function App() {
@@ -9,11 +11,13 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <main className="app-main">
-        <Routes>
+        <Routes> 
           <Route path="/" element={<Home />} />
+          <Route path="/ipl" element={<IPLPage />} />
+          <Route path="/movies" element={<MoviesPage />} />
           <Route path="/event/:id" element={<EventDetail />} />
         </Routes>
-      </main>
+      </main>  
     </BrowserRouter>
   );
 }
