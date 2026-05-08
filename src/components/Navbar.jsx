@@ -22,7 +22,7 @@ function Navbar() {
 
   const navLinks = [
     { path: "/", label: "For you" },
-    { path: "/#dining", label: "Dining" },
+    { path: "/dining", label: "Dining" },
     { path: "/movies", label: "Movies" },
     { path: "/#events", label: "Events" },
     { path: "/ipl", label: "IPL" },

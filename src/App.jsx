@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import EventDetail from "./pages/EventDetail";
 import MoviesPage from "./pages/MoviesPage";
 import IPLPage from "./pages/IPLPage";
+import DiningPage from "./pages/DiningPage";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main className="app-main">
         <Routes> 
           <Route path="/" element={<Home />} />
+          <Route path="/dining" element={<DiningPage />} />
           <Route path="/ipl" element={<IPLPage />} />
           <Route path="/movies" element={<MoviesPage />} />
           <Route path="/event/:id" element={<EventDetail />} />
